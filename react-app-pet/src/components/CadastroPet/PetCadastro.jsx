@@ -1,9 +1,11 @@
 import React from 'react';
+import { ButtonSubmit, FormPet } from '../../style/styled'
+import './cadastro.css'
 
 function CadastroPet() {
   return (
-    <>
-      <form action="" method="post">
+    <div className='form-cadastro-pet'>
+      <FormPet action="" method="post">
         <h3>Cadastro</h3>
 
         {/*Nome pet*/}
@@ -60,9 +62,20 @@ function CadastroPet() {
           <div></div>
           <textarea type="text" placeholder='Digite as Observações'/>
         </div>
+        
 
-      </form>
-    </>
+        <div className='btn'>
+          <ButtonSubmit>Cadastrar</ButtonSubmit>
+        </div>
+      </FormPet>
+
+      <div className="text-pet">
+        <div>
+          <h2>A atenção que seu pet merece!</h2>            
+        </div>
+      </div>
+
+    </div>
   );
 }
 
