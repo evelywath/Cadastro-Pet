@@ -2,8 +2,8 @@
 
 .form-cadastro-pet{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     /*BackGround */
 
     background-color: black;
@@ -44,4 +44,29 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+}
+
+.details-page{
+    background-color: #fff;
+    border: 2px solid #ddd;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000;
+    padding: 5px;
+    width: 100%;
+    height: 53px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.details-page:hover{
+    cursor:pointer;
+    transition: all ease-in-out 150ms;
+    background-color: #ddd;
+    color: #fff;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import PetBg from './img/pet-bg3.jpg'
 import { ButtonSubmit, FormPet } from '../../style/styled'
+import { Link } from 'react-router-dom';
 import './cadastro.css'
 
 function CadastroPet() {
@@ -74,6 +75,10 @@ function CadastroPet() {
 
         <div className='btn'>
           <ButtonSubmit>Cadastrar</ButtonSubmit>
+        </div>
+
+        <div className='details-page'> 
+          <Link to='/details'>Ver Meu Pet</Link>
         </div>
       </FormPet>
 
