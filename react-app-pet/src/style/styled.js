@@ -30,6 +30,13 @@ export const FormPet = styled.form`
     background-color: #fff;
     padding: 40px;
 
+    @media (max-width:912px) {
+        
+            width: 100%;
+            height: 100%;
+    
+    }
+
     h3{
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.5rem;

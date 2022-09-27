@@ -7,7 +7,7 @@ import './cadastro.css'
 function CadastroPet() {
   return (
     <div className='form-cadastro-pet'>
-      <FormPet action="" method="post">
+      <FormPet action="" method="post" className='form-pet'>
         <h3>Cadastre seu Pet</h3>
 
         {/*Nome pet*/}
@@ -69,16 +69,12 @@ function CadastroPet() {
         {/*Observações*/}
         <div>
           <div></div>
-          <textarea type="text" placeholder='Digite as Observações' cols='70' rows='3'/>
+          <textarea type="text" placeholder='Digite as Observações' cols='70' rows='3' id='obs'/>
         </div>
         
 
         <div className='btn'>
           <ButtonSubmit>Cadastrar</ButtonSubmit>
-        </div>
-
-        <div className='details-page'> 
-          <Link to='/details'>Ver Meu Pet</Link>
         </div>
       </FormPet>
 
