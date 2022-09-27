@@ -9,4 +9,6 @@ Integrantes:
 
 - Bruno Bezerra Brasil - RM93263
 
+- Evely Wath Ramos da Silva - RM92970
+
 Repositório para o CP2_2SEM_RWD
