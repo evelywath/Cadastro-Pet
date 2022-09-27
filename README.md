@@ -1,6 +1,6 @@
 # Cadastro-Pet
 
-Aqui você vera um aplicação para Cadastro do Seu Pet e Visualização do Pet Cadastrado.
+Aqui você verá um aplicação para Cadastro do Seu Pet e Visualização do Pet Cadastrado.
 
 Integrantes:
 - Victor Sousa Barberino - RM95209
